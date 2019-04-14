@@ -10,11 +10,9 @@ class Topbar extends Component {
         <div className="Container">
           <Logo/>
           <div className="Links">
-          
             <a href="#ssss" className="Link">sssss</a>
             <a href="#mywork" className="Link">My work</a>
             <a href="#contact" className="Link">Contact</a>
-          
           </div>
         </div>
       </div>

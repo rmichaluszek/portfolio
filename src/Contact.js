@@ -6,8 +6,10 @@ class Contact extends Component {
   render() {
     return (
       <div className="Contact">
+        <div id="contact" className="anchor"></div>
         <div className="Container">
-          <div className="Sticky">Contact</div>
+          <div className="Header">Contact</div>
+          sdsd
         </div>
       </div>
     );

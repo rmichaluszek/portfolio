@@ -4,7 +4,25 @@
     overflow: hidden;
     width: 100%;
     top: 0;
-    z-index: 3;
+    z-index: 5;
     line-height: 50px;
-    background: rgba(18,18,18,0.8);
+    background: rgba(18,18,18,1);
+}
+
+.Links {
+    float: right;
+}
+
+.Links a {
+    color: white;
+    line-height: 50px;
+    padding-left: 14px;
+    padding-right: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    float: left;
+}
+.Links a:hover {
+    background: rgba(255,255,255,0.05);
 }

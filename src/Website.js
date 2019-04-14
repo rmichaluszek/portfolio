@@ -4,6 +4,7 @@ import './css/Website.css';
 import Topbar from './Topbar';
 import Welcome from './Welcome';
 import MyWork from './MyWork';
+import Contact from './Contact';
 
 class Website extends Component {
   render() {
@@ -12,6 +13,7 @@ class Website extends Component {
         <Topbar/>
         <Welcome/>
         <MyWork/>
+        <Contact/>
       </div>
     );
   }

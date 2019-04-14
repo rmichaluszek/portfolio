@@ -1,5 +1,41 @@
 .MyWork {
     box-sizing: border-box;
-    min-height: 100vh;
-    background: rgba(28,28,28,0.95);
+    background: rgba(28,28,28,1);
+    position: relative;
+}
+
+.Works-container {
+    position: relative;
+
+    text-align: center;
+    left: -10px;
+    margin-right: -15px;
+    font-size: 0;
+
+}
+.Works-cell {
+    font-size: 14px;
+    width: 33.33%;
+    display: inline-block;
+    height: 300px;
+    min-width: 300px;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    padding: 5px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+.Works-cell-content {
+    background: white;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.GitHubText {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    color: #cdcdcd;
 }

@@ -5,7 +5,7 @@ class Topbar extends Component {
   render() {
     return (
       <div className="Logo">
-        RAFAL<b>M</b>.COM
+        Rafal<b>M</b>.com
       </div>
     );
   }

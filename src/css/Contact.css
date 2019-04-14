@@ -1,6 +1,7 @@
-.Welcome {
-    box-sizing: border-box;
+.Contact {
     min-height: 100vh;
     height: 100vh;
-    background: rgba(18,18,18,0.95);
+    background: rgba(18,18,18,1);
+    box-sizing: border-box;
+    position: relative;
 }
