@@ -1,0 +1,10 @@
+.Topbar {
+    height: 50px;
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    top: 0;
+    z-index: 3;
+    line-height: 50px;
+    background: rgba(18,18,18,0.8);
+}
