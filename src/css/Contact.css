@@ -1,7 +1,70 @@
 .Contact {
-    min-height: 100vh;
-    height: 100vh;
     background: rgba(18,18,18,1);
     box-sizing: border-box;
     position: relative;
+    padding-top: 40px;
+}
+
+.ContactTitle {
+    margin: 0px 0px;
+    font-size: 16px;
+    color :white;
+    margin-bottom: 30px;
+}
+
+.Form {
+    width: 40%;
+    padding: 14px 20px 16px 20px;
+    color: white;
+    border-radius: 3px;
+    background: #222222;
+    box-shadow: 3px 3px  6px rgba(0,0,0,0.7);
+}
+
+.Form input{
+    width: 100%;
+    margin: 5px 0px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-size: 16px;
+    padding: 6px;
+    background: #ededed;
+    outline: none;
+    border: none;
+}
+.Form textarea{
+    width: 100%;
+    margin: 5px 0px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-size: 15px;
+    padding: 6px;
+    overflow-y: auto;
+    resize: none;
+    outline: none;
+    background: #ededed;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.Form input[type=submit] {
+    background: #ededed;
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+}
+.Form input[type=submit]:hover {
+    background: #bcbcbc;
+    cursor: pointer;
+}
+
+.Footer {
+    width: 100%;
+    text-align: center;
+    color: #bcbcbc;
+    font-size: 13px;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }

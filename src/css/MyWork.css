@@ -2,6 +2,8 @@
     box-sizing: border-box;
     background: rgba(28,28,28,1);
     position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .Works-container {
@@ -11,7 +13,6 @@
     left: -10px;
     margin-right: -15px;
     font-size: 0;
-
 }
 .Works-cell {
     font-size: 14px;
@@ -31,6 +32,8 @@
     width: 100%;
     height: 100%;
     box-sizing: border-box;
+    border-radius: 3px;
+    box-shadow: 4px 4px  6px rgba(0,0,0,0.8);
 }
 
 .GitHubText {
