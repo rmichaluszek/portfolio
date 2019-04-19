@@ -3,11 +3,12 @@
     box-sizing: border-box;
     position: relative;
     padding-top: 40px;
+    padding-bottom: 60px;
 }
 
 .ContactTitle {
     margin: 0px 0px;
-    font-size: 16px;
+    font-size: 19px;
     color :white;
     margin-bottom: 30px;
 }
@@ -20,7 +21,6 @@
     background: #222222;
     box-shadow: 3px 3px  6px rgba(0,0,0,0.7);
 }
-
 .Form input{
     width: 100%;
     margin: 5px 0px;
@@ -58,13 +58,4 @@
 .Form input[type=submit]:hover {
     background: #bcbcbc;
     cursor: pointer;
-}
-
-.Footer {
-    width: 100%;
-    text-align: center;
-    color: #bcbcbc;
-    font-size: 13px;
-    padding-top: 50px;
-    padding-bottom: 20px;
 }

@@ -30,10 +30,6 @@ class Contact extends Component {
           </form>
           </div>
 
-          <div className="Footer">
-            <div className="Socials">ssss</div>
-            © Rafał Michałuszek 2019. All rights reserved.
-          </div>
         </div>
       </div>
     );

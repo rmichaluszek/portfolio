@@ -6,7 +6,8 @@
     top: 0;
     z-index: 5;
     line-height: 50px;
-    background: rgba(18,18,18,1);
+    background: #111122;
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);
 }
 
 .Links {

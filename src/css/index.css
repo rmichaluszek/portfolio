@@ -9,6 +9,9 @@ body {
 
   height: 100%;
 }
+b {
+  color: #6684c5;
+}
 a {
   color: white;
   font-weight: bold;
@@ -42,7 +45,7 @@ a:hover {
   height: 50px;
   font-weight: bold;
   color: #dfdfdf;
-  font-size: 1.4em;
+  font-size: 1.6em;
 }
 .anchor {
   position: absolute;

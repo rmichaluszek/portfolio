@@ -5,6 +5,7 @@ import Topbar from './Topbar';
 import Welcome from './Welcome';
 import MyWork from './MyWork';
 import Contact from './Contact';
+import Footer from './Footer';
 
 class Website extends Component {
   render() {
@@ -14,6 +15,7 @@ class Website extends Component {
         <Welcome/>
         <MyWork/>
         <Contact/>
+        <Footer/>
       </div>
     );
   }

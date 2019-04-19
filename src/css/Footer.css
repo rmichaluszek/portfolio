@@ -1,0 +1,47 @@
+.Footer {
+    width: 100%;
+    text-align: center;
+    background: #111122;
+    color: #bcbcbc;
+    font-size: 13px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.Socials {
+    float: left;
+    height: 46px;
+}
+.Username {
+    line-height: 46px;
+    font-size: 22px;
+    margin-left: 20px;
+    float: left;
+}
+.Socials button {
+    width: 46px;
+    height: 46px;
+    background: #222222;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    margin: none;
+    display: inline-block;
+    box-shadow: 3px 3px  6px rgba(0,0,0,0.7);
+}
+.Socials a + a {
+    margin-left: 20px;
+}
+.Socials button:hover {
+    cursor: pointer;
+    background: #2c2c2c;
+}
+.Socials button img {
+    filter: invert(80%);
+}
+.FooterCopyright {
+    float: right;
+    font-size: 16px;
+    color: #bcbcbc;
+    line-height: 46px;
+}

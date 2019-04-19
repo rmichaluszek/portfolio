@@ -5,7 +5,6 @@
     padding-top: 40px;
     padding-bottom: 40px;
 }
-
 .Works-container {
     position: relative;
 
@@ -35,7 +34,6 @@
     border-radius: 3px;
     box-shadow: 4px 4px  6px rgba(0,0,0,0.8);
 }
-
 .GitHubText {
     font-size: 16px;
     margin-top: 5px;
