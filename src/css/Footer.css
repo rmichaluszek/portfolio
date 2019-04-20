@@ -1,30 +1,30 @@
 .Footer {
     width: 100%;
     text-align: center;
-    background: #111122;
+    background: #171733;
     color: #bcbcbc;
     font-size: 13px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 .Socials {
     float: left;
     height: 46px;
 }
 .Username {
-    line-height: 46px;
-    font-size: 22px;
+    line-height: 36px;
+    font-size: 18px;
     margin-left: 20px;
     float: left;
 }
 .Socials button {
-    width: 46px;
-    height: 46px;
+    width: 36px;
+    height: 36px;
     background: #222222;
     border-radius: 3px;
     border: none;
     outline: none;
-    padding: 8px;
+    padding: 6px;
     margin: none;
     display: inline-block;
     box-shadow: 3px 3px  6px rgba(0,0,0,0.7);
@@ -43,5 +43,5 @@
     float: right;
     font-size: 16px;
     color: #bcbcbc;
-    line-height: 46px;
+    line-height: 36px;
 }
