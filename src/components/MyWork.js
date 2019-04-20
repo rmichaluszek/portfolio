@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import './css/MyWork.css';
+import '../css/MyWork.css';
 
 class MyWork extends Component {
   render() {

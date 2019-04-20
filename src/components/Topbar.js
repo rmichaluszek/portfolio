@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './css/Topbar.css';
+import '../css/Topbar.css';
 
 import Logo from './Logo';
 

@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './css/Website.css';
 
-import Topbar from './Topbar';
-import Welcome from './Welcome';
-import MyWork from './MyWork';
-import Contact from './Contact';
-import Footer from './Footer';
+import Topbar from './components/Topbar';
+import Welcome from './components/Welcome';
+import MyWork from './components/MyWork';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 class Website extends Component {
   render() {
