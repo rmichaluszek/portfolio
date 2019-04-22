@@ -12,31 +12,11 @@
     left: -10px;
     margin-right: -15px;
     font-size: 0;
-}
-.Works-cell {
-    font-size: 14px;
-    width: 33.33%;
-    display: inline-block;
-    height: 300px;
-    min-width: 300px;
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-    padding: 5px;
-    padding-left: 10px;
-    margin-bottom: 5px;
-}
-.Works-cell-content {
-    background: white;
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
-    border-radius: 3px;
-    box-shadow: 4px 4px  6px rgba(0,0,0,0.8);
+    margin-top: 10px;
 }
 .GitHubText {
     font-size: 16px;
-    margin-top: 5px;
+    margin-top: 25px;
     margin-bottom: 15px;
     color: #cdcdcd;
 }

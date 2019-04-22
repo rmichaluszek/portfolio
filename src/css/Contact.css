@@ -11,14 +11,20 @@
     font-size: 19px;
     color :white;
     margin-bottom: 30px;
+    width :100%;
+}
+.ContactContainer {
+    display: table;
 }
 
 .Form {
-    width: 40%;
+    width: 100%;
     padding: 14px 20px 16px 20px;
     color: white;
     border-radius: 3px;
     background: #222222;
+    box-sizing: border-box;
+    float: left;
     box-shadow: 3px 3px  6px rgba(0,0,0,0.7);
 }
 .Form input{
@@ -58,4 +64,53 @@
 .Form input[type=submit]:hover {
     background: #bcbcbc;
     cursor: pointer;
+}
+
+.References {
+    width: 60%;
+    padding-left: 30px;
+    box-sizing: border-box;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.Reference {
+    display: table;
+    padding: 12px;
+    background: #222233;
+    color: white;
+    float: left;
+    border-radius: 3px;
+    position: relative;
+    box-shadow: 3px 3px  6px rgba(0,0,0,0.7);
+}
+.ReferenceQuote {
+    padding: 5px 30px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.ReferenceQuoteSymbolLeft {
+    width: 30px;
+    display: inline-block;
+    position: absolute;
+    left: 15px;
+    user-select: none;
+    top: 15px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ReferenceQuoteSymbolRight {
+    width: 30px;
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    user-select: none;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ReferenceSignature {
+    text-align: right;
+    color: white;
+    font-style: italic;
 }

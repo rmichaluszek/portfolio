@@ -1,0 +1,60 @@
+.ProjectDisplay {
+    font-size: 14px;
+    width: 33.33%;
+    display: inline-block;
+    height: 300px;
+    min-width: 300px;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    padding: 5px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+.ProjectDisplayContent {
+    background: #111111;
+    width: 100%;
+    position: relative;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    box-shadow: 4px 4px  6px rgba(0,0,0,0.5);
+}
+.ProjectDisplayContent img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+.CenterImage {
+    object-position: center !important;
+}
+.ProjectDisplayTopbar {
+    font-size: 16px;
+    line-height: 28px;
+    color: white;
+    text-align:left;
+    padding-left: 10px;
+    padding-right: 8px;
+    padding-top: 8px;
+    height: 80px;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    background: rgb(250, 152, 152);
+    background: linear-gradient(180deg, rgba(0,0,0,0.9) 50%, rgba(0,212,0,0) 100%);
+}
+.Technologies {
+    float: right;
+}
+.Technology {
+    height: 26px;
+    width: 26px;
+    padding:1px;
+    box-sizing: border-box;
+    filter: invert(90%);
+   border-radius: 2px;
+    color: black;
+    float: right;
+    margin-left: 3px;
+}
