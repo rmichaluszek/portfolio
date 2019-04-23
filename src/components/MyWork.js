@@ -7,10 +7,36 @@ import ProjectDisplay from './ProjectDisplay';
 class MyWork extends Component {
   state = {
     projects: [
-      { title:"Portfolio", technologies:['React','NodeJS','Css'], coverImage:"portfolio-cover.png"},
-      { title:"Page-Notifications Website", technologies:['JavaScript','Css'], coverImage:"page-notifications-website-cover.png"},
-      { title:"Page-NotificationsJS", technologies:['JavaScript','Css'], coverImage:"portfolio-cover.png"},
-      { title:"Nul: Solve the puzzles", technologies:['Godot','Gimp','Inkscape'], coverImage:"nul-cover.png"},
+      { 
+        title:"Portfolio", 
+        technologies:['React','NodeJS','Css'], 
+        coverImage:"portfolio-cover.png"
+      },
+      { 
+        title:"Page-Notifications Website",
+        technologies:['JavaScript','Css'], 
+        coverImage:"page-notifications-website-cover.png"
+      },
+      { 
+        title:"Page-NotificationsJS", 
+        technologies:['JavaScript','Css'],
+        coverImage:"page-notifications-cover.png"
+      },
+      { 
+        title:"BasLinkr Mobile",
+        technologies:['AndroidStudio','Gimp','JavaScript'],
+        coverImage:"baslinkr-cover.png"
+      },
+      { 
+        title:"Nul: Solve the puzzles",
+        technologies:['Godot','Gimp','Inkscape'],
+        coverImage:"nul-cover.png"
+      },
+      { 
+        title:"Stellar Dust", 
+        technologies:['Godot','Gimp','Inkscape'], 
+        coverImage:"stellar-cover.png"
+      },
     ]
   }
   render() {
