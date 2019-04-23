@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import '../css/Topbar.css';
 
+import Translate from 'react-translate-component';
+
 import Logo from './Logo';
 
 class Topbar extends Component {
@@ -10,9 +12,9 @@ class Topbar extends Component {
         <div className="Container">
           <Logo/>
           <div className="Links">
-            <a href="#ssss" className="Link">sssss</a>
-            <a href="#mywork" className="Link">My work</a>
-            <a href="#contact" className="Link">Contact</a>
+            <Translate content="topbar.title" component="a" href="#"/>
+            <Translate content="topbar.mywork" component="a" href="#mywork"/>
+            <Translate content="topbar.contact" component="a" href="#contact"/>
           </div>
         </div>
       </div>
