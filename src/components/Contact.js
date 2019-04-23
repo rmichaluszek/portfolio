@@ -2,34 +2,35 @@ import React, { Component } from 'react';
 
 import '../css/Contact.css';
 
+import Translate from 'react-translate-component';
+
 class Contact extends Component {
   render() {
     return (
       <div className="Contact">
         <div id="contact" className="anchor"></div>
         <div className="Container">
-          <div className="Header">Contact</div>
-          <div className="ContactTitle">
-              Do you have something that I can do for you? Send me an e-mail at <b>contact@rafalm.com</b>, or use <b>form</b> from below.
-          </div>
+
+          <Translate content="contact.header" unsafe={true} component="div" className="Header"/>
+          <Translate content="contact.contactTitle" unsafe={true} component="div" className="ContactTitle"/>
 
           <div className="ContactContainer">
 
               <div className="Form">
               <form>
                 <label>
-                  Name:
-                  <input type="text" name="name" placeholder="Land here your name"/>
+                  <Translate content="contact.name" component="div"/>
+                  <Translate name="name" component="input" attributes={{placeholder: 'contact.namePlaceholder' }}/>
                 </label>
                 <label>
-                  Email:
-                  <input type="text" name="name" placeholder="I should response somewhere"/>
+                  <Translate content="contact.email" component="div"/>
+                  <Translate name="email" component="input" attributes={{placeholder: 'contact.emailPlaceholder' }}/>
                 </label>
                 <label>
-                  Email:
-                  <textarea rows="6" name="name" placeholder="What can I do for you?"/>
+                  <Translate content="contact.content" component="div"/>
+                  <Translate name="content" rows="6" component="textarea" attributes={{placeholder: 'contact.contentPlaceholder' }}/>
                 </label>
-                <input type="submit" value="Send" />
+                <Translate name="content" type="submit" component="input" attributes={{ value:'contact.submit'}}/>
               </form>
               </div>
 
@@ -43,6 +44,7 @@ class Contact extends Component {
                   <br></br><br></br>
                   Zdecydowaliśmy powierzyć to zadanie Panu Rafałowi, dzięki czemu od dwóch lat mamy możliwość korzystania z praktycznego i przyjaznego w obsłudze narzędzia mobilnego. Polecam usługi Pana Rafała.
                   </div>
+                  <Translate className="ReferenceLink" content="contact.referenceLink" component="div" unsafe={true} />
                   <div className="ReferenceSignature">
                     Paweł Mróz - <b>Zoologic</b>
                   </div>

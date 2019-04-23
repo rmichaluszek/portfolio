@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import '../css/Footer.css';
 
+import Translate from 'react-translate-component';
+
 class Footer extends Component {
   render() {
     return (
@@ -13,7 +15,7 @@ class Footer extends Component {
             <a href="" alt="facebook"><button><img src="icons/github.svg"></img></button></a>
           </div>
           <div className="Username">/rafalm99</div>
-          <div className="FooterCopyright">© Rafał Michałuszek 2019. All rights reserved.</div>
+          <Translate component="div" className="FooterCopyright" content="footer.copyright"/>
         </div>
       </div>
     );

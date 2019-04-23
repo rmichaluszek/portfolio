@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import '../css/MyWork.css';
 
+import Translate from 'react-translate-component';
+
 import ProjectDisplay from './ProjectDisplay';
 
 class MyWork extends Component {
@@ -44,7 +46,7 @@ class MyWork extends Component {
       <div className="MyWork">
       <div id="mywork" className="anchor"></div>
         <div className="Container">
-          <div className="Header">My work</div>
+          <Translate content="mywork.header" className="Header"/>
 
           <div className="Works-container">
 
@@ -54,7 +56,7 @@ class MyWork extends Component {
 
           </div>
 
-          <center><div className="GitHubText">Some of these and other smaller projects you can find at my <a href="">GitHub</a>.</div></center>
+          <center><Translate className="GitHubText" content="mywork.githubText" component="div" unsafe={true} /></center>
 
         </div>
       </div>

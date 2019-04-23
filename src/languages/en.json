@@ -3,5 +3,28 @@
         "title": "Welcome",
         "mywork": "My work",
         "contact": "Contact"
+    },
+    "welcome": {
+        "header":"Hello, I'm <b>Rafał Michałuszek</b>",
+        "smallerText":"<p>I build responsive <b>websites</b>, easy to use <b>JS libraries</b> and also doing a bit of <b>gamedev</b>.</p><p>Look below at <a href='#mywork'>my work</a>, and <a href='#contact'>contact me</a>. Feel free.</p>"
+    },
+    "mywork": {
+        "header":"My Work",
+        "githubText":"Some of these and other smaller projects you can find at my <a href='https://github.com/rafalm99'>GitHub</a>."
+    },
+    "contact": {
+        "header":"Contact",
+        "contactTitle":"Do you have something that I can do for you? Send me an e-mail at <b>contact@rafalm.com</b>, or use <b>form</b> from below.",
+        "name":"Name:",
+        "namePlaceholder":"Land here Your name",
+        "email":"Email:",
+        "emailPlaceholder":"Email, where i can response",
+        "content":"Content:",
+        "contentPlaceholder":"What can I do for You?",
+        "submit":"Send!",
+        "referenceLink":"See <a href='http://www.google.pl'>full reference</a>"
+    },
+    "footer": {
+        "copyright":"© Rafał Michałuszek 2019. All rights reserved."
     }
 }

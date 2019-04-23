@@ -85,7 +85,7 @@
     box-shadow: 3px 3px  6px rgba(0,0,0,0.7);
 }
 .ReferenceQuote {
-    padding: 5px 30px;
+    padding: 5px 25px 5px 30px;
     margin-bottom: 10px;
     display: inline-block;
 }
@@ -103,7 +103,7 @@
     width: 30px;
     display: inline-block;
     position: absolute;
-    right: 15px;
+    right: 5px;
     bottom: 15px;
     user-select: none;
     font-size: 50px;
@@ -113,4 +113,17 @@
     text-align: right;
     color: white;
     font-style: italic;
+    float: right;
+}
+.ReferenceLink {
+    color: #9999aa;
+    float: left;
+    font-size: 14px;
+    text-align: left;
+    position: absolute;
+    bottom: 12px;
+    left: 14px;
+}
+.ReferenceLink a {
+    color: #aaaabb;
 }
