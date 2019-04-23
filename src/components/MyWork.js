@@ -54,7 +54,7 @@ class MyWork extends Component {
 
           </div>
 
-          <center><div className="GitHubText">These and other smaller projects you can find at my <a href="">GitHub</a>.</div></center>
+          <center><div className="GitHubText">Some of these and other smaller projects you can find at my <a href="">GitHub</a>.</div></center>
 
         </div>
       </div>
