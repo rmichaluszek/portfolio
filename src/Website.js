@@ -11,13 +11,26 @@ import Footer from './components/Footer';
 import counterpart from 'counterpart';
 
 counterpart.registerTranslations('en', require('./languages/en.json'));
-counterpart.setLocale('en');
+counterpart.registerTranslations('pl', require('./languages/pl.json'));
 
 class Website extends Component {
+  
+  constructor(props) {
+    super(props);
+    this.state = {
+      language: "pl"
+    }
+    this.changeLanguage = (lang) => {
+      this.setState({language: lang});
+      counterpart.setLocale(lang);
+    }
+    this.changeLanguage(this.state.language);
+  }
+
   render() {
     return (
       <div className="Website">
-        <Topbar/>
+        <Topbar language={this.state.language} changeLanguage={this.changeLanguage}/>
         <Welcome/>
         <MyWork/>
         <Contact/>

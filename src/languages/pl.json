@@ -1,0 +1,30 @@
+{
+    "topbar": {
+        "title": "O mnie",
+        "mywork": "Moje projekty",
+        "contact": "Kontakt"
+    },
+    "welcome": {
+        "header":"Cześć, jestem <b>Rafał Michałuszek</b>",
+        "smallerText":"<p>Tworzę responsywne <b>strony</b>, łatwe w użyciu <b>biblioteki JS</b>, oraz pracuję trochę przy <b>grach</b>.</p><p>Zobacz <a href='#mywork'>czym się zajmowałem</a>, i <a href='#contact'>napisz do mnie</a>.</p>"
+    },
+    "mywork": {
+        "header":"Moje projekty",
+        "githubText":"Niektóre z powyższych, oraz inne mniejsze projekty można znależć na moim <a href='https://github.com/rafalm99'>GitHub'ie</a>."
+    },
+    "contact": {
+        "header":"Kontakt",
+        "contactTitle":"Masz coś co mogę dla Ciebie zrobic? Wyślij mi wiadomość na <b>contact@rafalm.com</b>, lub użyj poniższego <b>formularza</b>.",
+        "name":"Imię:",
+        "namePlaceholder":"Zostaw tu swoje imię",
+        "email":"Email:",
+        "emailPlaceholder":"Email, na który mogę odpowiedzieć",
+        "content":"Wiadomość:",
+        "contentPlaceholder":"Co mogę dla Ciebie zrobić?",
+        "submit":"Wyślij!",
+        "referenceLink":"Zobacz <a href='http://www.google.pl'>pełną opinię</a>"
+    },
+    "footer": {
+        "copyright":"© Rafał Michałuszek 2019. Wszystkie prawa zastrzeżone."
+    }
+}
