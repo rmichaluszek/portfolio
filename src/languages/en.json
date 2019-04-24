@@ -22,7 +22,7 @@
         "content":"Content:",
         "contentPlaceholder":"What can I do for You?",
         "submit":"Send!",
-        "referenceLink":"See <a href='http://www.google.pl'>full reference</a>"
+        "referenceLink":"See <a href='/documents/reference-zoologic.jpg'>full reference</a>"
     },
     "footer": {
         "copyright":"© Rafał Michałuszek 2019. All rights reserved."
