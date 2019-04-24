@@ -22,7 +22,13 @@
 
 .Container .Middle .Content {
     display: table;
-    width: 50%;
+    width: 55%;
+}
+@media only screen and (max-width: 640px) {
+    .Container .Middle .Content {
+        width: 100%;
+        text-align: center;
+    }
 }
 .Container .SmallerText {
     top: 0;

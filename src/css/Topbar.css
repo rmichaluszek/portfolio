@@ -9,11 +9,9 @@
     background: #171733;
     box-shadow: 3px 3px 6px rgba(0,0,0,0.5);
 }
-
 .Links {
     float: right;
 }
-
 .Links a {
     color: white;
     line-height: 50px;

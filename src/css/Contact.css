@@ -1,4 +1,4 @@
-.Contact {
+ .Contact {
     background: rgba(18,18,18,1);
     box-sizing: border-box;
     position: relative;
@@ -11,12 +11,11 @@
     font-size: 19px;
     color :white;
     margin-bottom: 30px;
-    width :100%;
+    width:100%;
 }
 .ContactContainer {
     display: table;
 }
-
 .Form {
     width: 100%;
     padding: 14px 20px 16px 20px;
@@ -24,7 +23,6 @@
     border-radius: 3px;
     background: #222222;
     box-sizing: border-box;
-    float: left;
     box-shadow: 3px 3px  6px rgba(0,0,0,0.7);
 }
 .Form input{
@@ -75,11 +73,10 @@
 }
 
 .Reference {
-    display: table;
+    display: table-cell;
     padding: 12px;
     background: #222233;
     color: white;
-    float: left;
     border-radius: 3px;
     position: relative;
     box-shadow: 3px 3px  6px rgba(0,0,0,0.7);
@@ -126,4 +123,14 @@
 }
 .ReferenceLink a {
     color: #aaaabb;
+}
+
+@media only screen and (max-width: 850px) {
+    .ContactContainer {
+        display: inline;
+    }
+    .References {
+        padding-top: 30px;
+        padding-left: 0;
+    }
 }

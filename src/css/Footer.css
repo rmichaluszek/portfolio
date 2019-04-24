@@ -45,3 +45,27 @@
     color: #bcbcbc;
     line-height: 36px;
 }
+@media only screen and (max-width: 650px) {
+    .Footer {
+        padding-top: 10px;
+        text-align: center;
+    }
+    .Socials {
+        float: none;
+        text-align: center;
+        display: inline;
+    }
+    .Username {
+        display: none;
+    }
+    .Socials button {
+        text-align: center;
+        display: inline-block;
+    }
+    .FooterCopyright {
+        margin-top: 10px;
+        width: 100%;
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
