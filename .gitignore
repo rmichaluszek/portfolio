@@ -1,3 +1,3 @@
-/build
-/node_modules
-/public/documents/reference-zoologic.jpg
+build/
+node_modules/
+documents/
