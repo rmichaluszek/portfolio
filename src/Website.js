@@ -18,13 +18,19 @@ class Website extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      language: "pl"
+      language: localStorage.getItem('lang')
     }
     this.changeLanguage = (lang) => {
       this.setState({language: lang});
       counterpart.setLocale(lang);
+      localStorage.setItem('lang',lang);
     }
-    this.changeLanguage(this.state.language);
+
+    if(this.state.language) this.changeLanguage(this.state.language);
+    else {
+      this.setState({'language':'pl'});
+      this.changeLanguage('pl');
+    }
   }
 
   render() {
