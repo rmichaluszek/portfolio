@@ -1,7 +1,6 @@
 .Topbar {
     height: 50px;
     position: fixed;
-    overflow: hidden;
     width: 100%;
     top: 0;
     z-index: 5;
@@ -21,24 +20,27 @@
     font-size: 17px;
     display: block;
     float: left;
+    box-sizing: border-box;
 }
 .Links a:hover {
     background: rgba(255,255,255,0.05);
 }
 select {
     width: 90px;
-    height: 54px;
+    height: 50px;
     padding-left: 5px;
+    padding-top: 3px;
     outline: none;
     border: none;
     color: white;
     background: inherit;
-    line-height: 50px;
+    line-height: 54px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 16px;
     display: block;
     text-align: center;
     float: right;
+    box-sizing: border-box;
 }
 select option {
     color: #111122;
@@ -46,4 +48,50 @@ select option {
 select:hover {
     cursor: pointer;
     background: rgba(255,255,255,0.05);
+}
+.MenuButton {
+    color: rgba(0,0,0,0);
+    width: 0px;
+    float: right;
+    overflow: hidden;
+    user-select: none;
+}
+@media only screen and (max-width: 680px) {
+    .MenuButton {
+        width: 60px;
+        color: white;
+        text-align: center;
+        font-size: 28px;
+    }
+    .MenuButtonActive {
+        background: rgba(255,255,255,0.05) !important;
+    }
+    .MenuButton:hover {
+        background: rgba(255,255,255,0.05);
+        cursor: pointer;
+    }
+    
+    .Links {
+        position: absolute;
+
+        left: 0;
+        right: 0;
+        top: 50px;
+
+        align-content: center;
+    }
+    .Links * {
+        display: none;
+        width: 0px;
+        text-align: center;
+        display:none !important;
+        background: #222233;
+    }
+    .Links *:hover {
+        background: #333344 !important;
+    }
+    .MenuShown *{
+        width: 100% !important;
+        display: block !important;
+    }
 }
