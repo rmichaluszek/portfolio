@@ -37,9 +37,13 @@ class MyWork extends Component {
       { 
         title:"Stellar Dust", 
         technologies:['Godot','Gimp','Inkscape'], 
-        coverImage:"stellar-cover.png"
+        coverImage:"stellar-cover.png",
       },
     ]
+  }
+  
+  onProjectPressed = (index) => {
+    this.props.showProject(this.state.projects[index]);
   }
   render() {
     return (
@@ -50,8 +54,8 @@ class MyWork extends Component {
 
           <div className="Works-container">
 
-            {this.state.projects.map(project => (
-              <ProjectDisplay technologies={project.technologies} projectTitle={project.title} coverImage={project.coverImage}/>
+            {this.state.projects.map((project,index) => (
+              <ProjectDisplay onClick={this.onProjectPressed} index={index} technologies={project.technologies} projectTitle={project.title} coverImage={project.coverImage}/>
             ))}
 
           </div>

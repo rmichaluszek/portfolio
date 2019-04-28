@@ -1,0 +1,7 @@
+.Website {
+}
+.ProjectFullScreenActive {
+    overflow: hidden !important;
+    right: 12px;
+    position: absolute;
+}

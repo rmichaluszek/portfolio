@@ -3,10 +3,13 @@ import React, { Component } from 'react';
 import '../css/ProjectDisplay.css';
 
 class ProjectDisplay extends Component {
-
+  
+  onClick = () => {
+    this.props.onClick(this.props.index);
+  }
   render() {
     return (
-      <div className="ProjectDisplay">
+      <div onClick={this.onClick} className="ProjectDisplay">
           <div className="ProjectDisplayContent">
               <div className="ProjectDisplayTopbar">
                 {this.props.projectTitle}

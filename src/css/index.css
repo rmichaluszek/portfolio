@@ -10,6 +10,13 @@ body {
   height: 100%;
   width: 100%;
 }
+.scrollbar-measure {
+	width: 100px;
+	height: 100px;
+	overflow: scroll;
+	position: absolute;
+	top: -9999px;
+}
 b {
   color: #6684c5;
 }

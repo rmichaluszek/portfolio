@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './css/Website.css';
 
-
 import Topbar from './components/Topbar';
 import Welcome from './components/Welcome';
 import MyWork from './components/MyWork';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import ProjectFullScreen from './components/ProjectFullScreen';
 
 import counterpart from 'counterpart';
 
@@ -18,12 +18,26 @@ class Website extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      language: localStorage.getItem('lang')
+      language: localStorage.getItem('lang'),
+      currentProject: {}
     }
     this.changeLanguage = (lang) => {
       this.setState({language: lang});
       counterpart.setLocale(lang);
       localStorage.setItem('lang',lang);
+    }
+
+    this.showFullScreenProject = (project) => {
+      this.setState({currentProject: project});
+      var scrollDiv = document.createElement("div");
+      scrollDiv.className = "scrollbar-measure";
+      document.body.appendChild(scrollDiv);
+      var scrollbarWidth = scrollDiv.offsetWidth - scrollDiv.clientWidth;
+      document.body.removeChild(scrollDiv);
+
+      this.refs.ProjectFullScreenDisplay.lockScreen();
+      document.body.className = "ProjectFullScreenActive";
+      document.body.style.right = Math.floor(scrollbarWidth/2)+"px";
     }
 
     if(this.state.language) this.changeLanguage(this.state.language);
@@ -35,12 +49,13 @@ class Website extends Component {
 
   render() {
     return (
-      <div className="Website">
+      <div ref={"Website"} className="Website">
         <Topbar language={this.state.language} changeLanguage={this.changeLanguage}/>
         <Welcome/>
-        <MyWork/>
+        <MyWork showProject={this.showFullScreenProject}/>
         <Contact/>
         <Footer/>
+        <ProjectFullScreen ref="ProjectFullScreenDisplay" project={this.state.currentProject}/>
       </div>
     );
   }
