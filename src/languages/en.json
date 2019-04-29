@@ -37,6 +37,15 @@
         "pn-website": {
             "github": "Page-Notifications website source on GitHub",
             "website": "Live website"
+        },
+        "pn": {
+            "github": "Page-Notifications library source on GitHub"
+        },
+        "nul": {
+            "gplay": "Find the game at Google Play"
+        },
+        "stellar": {
+            "gplay": "Find the game at Google Play"
         }
     }
 }

@@ -25,7 +25,10 @@
         "technologies":["JavaScript","Css"],
         "description": "descriptions.pn",
         "coverImage":"page-notifications-cover.png",
-        "links": [],
+        "links": [
+            ["pn.github","https://github.com/rafalm99/page-notifications"],
+            ["pn-website.website","https://page-notifications.rafalm.com/"]
+        ],
         "screenshots": ["page-notifications-cover.png"]
     },
     { 
@@ -41,7 +44,9 @@
         "technologies":["Godot","Gimp","Inkscape"],
         "description": "descriptions.nul",
         "coverImage":"nul-cover.png",
-        "links": [],
+        "links": [
+            ["nul.gplay","https://play.google.com/store/apps/details?id=com.bycode.nulgame"]
+        ],
         "screenshots": ["nul-cover.png"]
     },
     { 
@@ -49,7 +54,9 @@
         "technologies":["Godot","Gimp","Inkscape"], 
         "description": "descriptions.stellar-dust",
         "coverImage":"stellar-cover.png",
-        "links": [],
+        "links": [
+            ["stellar.gplay","https://play.google.com/store/apps/details?id=pl.cyfrogen.stellardust"]
+        ],
         "screenshots": ["stellar-cover.png"]
     }
 ]
