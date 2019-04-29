@@ -1,0 +1,55 @@
+[
+    { 
+        "title":"Portfolio", 
+        "technologies":["React","NodeJS","Css"], 
+        "description": "descriptions.portfolio",
+        "coverImage":"portfolio-cover.png",
+        "links": [
+          ["portfolio.github","https://github.com/rafalm99/portfolio"]
+        ],
+        "screenshots": ["portfolio-cover.png"]
+    },
+    { 
+        "title":"Page-Notifications Website",
+        "technologies":["JavaScript","Css"],
+        "description": "descriptions.pn-website",
+        "coverImage":"page-notifications-website-cover.png",
+        "links": [
+          ["pn-website.github","https://github.com/rafalm99/page-notifications-website"],
+          ["pn-website.website","https://page-notifications.rafalm.com/"]
+        ],
+        "screenshots": ["page-notifications-website-cover.png"]
+    },
+    { 
+        "title":"Page-NotificationsJS", 
+        "technologies":["JavaScript","Css"],
+        "description": "descriptions.pn",
+        "coverImage":"page-notifications-cover.png",
+        "links": [],
+        "screenshots": ["page-notifications-cover.png"]
+    },
+    { 
+        "title":"BasLinkr Mobile",
+        "technologies":["AndroidStudio","Gimp","JavaScript","Java"],
+        "description": "descriptions.baslinkr",
+        "coverImage":"baslinkr-cover.png",
+        "links": [],
+        "screenshots": ["baslinkr-cover.png"]
+    },
+    { 
+        "title":"Nul: Solve the puzzles",
+        "technologies":["Godot","Gimp","Inkscape"],
+        "description": "descriptions.nul",
+        "coverImage":"nul-cover.png",
+        "links": [],
+        "screenshots": ["nul-cover.png"]
+    },
+    { 
+        "title":"Stellar Dust", 
+        "technologies":["Godot","Gimp","Inkscape"], 
+        "description": "descriptions.stellar-dust",
+        "coverImage":"stellar-cover.png",
+        "links": [],
+        "screenshots": ["stellar-cover.png"]
+    }
+]

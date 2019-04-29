@@ -19,7 +19,13 @@ class Website extends Component {
     super(props);
     this.state = {
       language: localStorage.getItem('lang'),
-      currentProject: {}
+      currentProject: {
+        title: "",
+        description: "",
+        technologies: [],
+        links: [],
+        screenshots: []
+      }
     }
     this.changeLanguage = (lang) => {
       this.setState({language: lang});
@@ -27,6 +33,14 @@ class Website extends Component {
       localStorage.setItem('lang',lang);
     }
 
+    this.onProjectFullScreenClose = () => {
+      this.hideFullScreenProject(0)
+    }
+    this.hideFullScreenProject = () => {
+      document.body.className = "";
+      document.body.style.right = "0px";
+      this.refs.ProjectFullScreenDisplay.unlockScreen();
+    }
     this.showFullScreenProject = (project) => {
       this.setState({currentProject: project});
       var scrollDiv = document.createElement("div");
@@ -55,7 +69,7 @@ class Website extends Component {
         <MyWork showProject={this.showFullScreenProject}/>
         <Contact/>
         <Footer/>
-        <ProjectFullScreen ref="ProjectFullScreenDisplay" project={this.state.currentProject}/>
+        <ProjectFullScreen onClose={this.onProjectFullScreenClose} ref="ProjectFullScreenDisplay" project={this.state.currentProject}/>
       </div>
     );
   }

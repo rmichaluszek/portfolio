@@ -26,5 +26,17 @@
     },
     "footer": {
         "copyright":"© Rafał Michałuszek 2019. All rights reserved."
+    },
+    "descriptions": {
+        "portfolio": "Simple one-page site to show what am I doing, also to leave some information about me in the internet. Project was build on React, to let the website have easy translations in polish/english language, also to make single project preview easier on it."
+    },
+    "links": {
+        "portfolio": {
+            "github":"Portfolio's source on GitHub"
+        },
+        "pn-website": {
+            "github": "Page-Notifications website source on GitHub",
+            "website": "Live website"
+        }
     }
 }
