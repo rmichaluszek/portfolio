@@ -30,16 +30,16 @@ class Contact extends Component {
   }
 
   sendMail = (e) => {
+    var button = e.target;
+    button.disabled = true;
     axios.get('https://rafalm.com/mail/sendMail.php?email='+this.state.email+"&name="+this.state.name+"&title="+this.state.title+"&content="+this.state.content)
     .then(response => {
       if(response.data.success) {
-        e.target.disabled = true;
-        e.target.innerHTML = counterpart.translate('contact.messageSent');
+        button.innerHTML = counterpart.translate('contact.messageSent');
         return;
       }
     });
-    e.target.disabled = true;
-    e.target.innerHTML = counterpart.translate('contact.messageError');
+    button.innerHTML = counterpart.translate('contact.messageError');
   }
   render() {
     return (
