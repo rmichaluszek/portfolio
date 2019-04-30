@@ -37,9 +37,10 @@ class Contact extends Component {
       if(response.data.success) {
         button.innerHTML = counterpart.translate('contact.messageSent');
         return;
+      } else {
+        button.innerHTML = counterpart.translate('contact.messageError');
       }
     });
-    button.innerHTML = counterpart.translate('contact.messageError');
   }
   render() {
     return (
