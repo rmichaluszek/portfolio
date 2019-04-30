@@ -4,10 +4,33 @@ import '../css/Contact.css';
 
 import Translate from 'react-translate-component';
 
+import axios from 'axios'; // to send the mail and receive status
+
 class Contact extends Component {
 
-  sendMail = () => {
+  state = {
+    name: "",
+    email: "",
+    title: "",
+    content: ""
+  }
 
+  updateName = (e) => {
+    this.setState({name:e.target.value});
+  }
+  updateEmail = (e) => {
+    this.setState({email:e.target.value});
+  }
+  updateTitle = (e) => {
+    this.setState({title:e.target.value});
+  }
+  updateContent = (e) => {
+    this.setState({content:e.target.value});
+  }
+
+  sendMail = () => {
+    axios.get('https://rafalm.com/mail/sendMail.php?email='+this.state.email+"&name="+this.state.name+"&title="+this.state.title+"&content="+this.state.content)
+    .then(response => console.log(response));
   }
   render() {
     return (
@@ -21,25 +44,25 @@ class Contact extends Component {
           <div className="ContactContainer">
 
               <div className="Form">
-              <form>
+
                 <label>
                   <Translate content="contact.name" component="div"/>
-                  <Translate name="name" component="input" attributes={{placeholder: 'contact.namePlaceholder' }}/>
+                  <Translate onChange={this.updateName} name="name" component="input" attributes={{placeholder: 'contact.namePlaceholder' }}/>
                 </label>
                 <label>
                   <Translate content="contact.email" component="div"/>
-                  <Translate name="email" component="input" attributes={{placeholder: 'contact.emailPlaceholder' }}/>
+                  <Translate onChange={this.updateEmail} name="email" component="input" attributes={{placeholder: 'contact.emailPlaceholder' }}/>
                 </label>
                 <label>
                   <Translate content="contact.title" component="div"/>
-                  <Translate name="title" component="input" attributes={{placeholder: 'contact.titlePlaceholder' }}/>
+                  <Translate onChange={this.updateTitle} name="title" component="input" attributes={{placeholder: 'contact.titlePlaceholder' }}/>
                 </label>
                 <label>
                   <Translate content="contact.content" component="div"/>
-                  <Translate name="content" rows="6" component="textarea" attributes={{placeholder: 'contact.contentPlaceholder' }}/>
+                  <Translate onChange={this.updateContent} name="content" rows="6" component="textarea" attributes={{placeholder: 'contact.contentPlaceholder' }}/>
                 </label>
-                <Translate onClick={this.sendMail} name="content" type="submit" component="input" attributes={{ value:'contact.submit'}}/>
-              </form>
+                <Translate onClick={this.sendMail} name="send" component="button" content='contact.submit'/>
+        
               </div>
 
               <div className="References">

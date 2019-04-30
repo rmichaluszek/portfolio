@@ -17,7 +17,7 @@ class ProjectDisplay extends Component {
 
                   {this.props.technologies.map(technology => (
                       <div className="Technology">
-                        <img title={technology} alt={technology} src={"/icons/"+technology+".svg"}></img>
+                        <img title={technology} alt={technology} src={"/images/"+technology+".svg"}></img>
                       </div>
                   ))}
 

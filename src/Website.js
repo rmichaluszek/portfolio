@@ -54,7 +54,7 @@ class Website extends Component {
       document.body.style.right = Math.floor(scrollbarWidth/2)+"px";
     }
 
-    if(this.state.language) this.changeLanguage(this.state.language);
+    if(this.state.language == "en") this.changeLanguage(this.state.language);
     else {
       this.setState({'language':'pl'});
       this.changeLanguage('pl');

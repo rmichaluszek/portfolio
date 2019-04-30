@@ -64,7 +64,7 @@ class ProjectFullScreen extends Component {
                   this.props.project.technologies.map((technology,index) => (
                     <div className="ProjectFullScreenTechnology">
                       {technology}
-                      <img src={"icons/"+technology+".svg"}></img>
+                      <img src={"/icons/"+technology+".svg"}></img>
                     </div>
                   ))      
                 }

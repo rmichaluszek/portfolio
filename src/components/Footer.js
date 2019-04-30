@@ -10,9 +10,9 @@ class Footer extends Component {
       <div className="Footer">
         <div className="Container">
           <div className="Socials">
-            <a href="" alt="facebook"><button><img src="icons/facebook.svg"></img></button></a>
-            <a href="" alt="facebook"><button><img src="icons/twitter.svg"></img></button></a>
-            <a href="" alt="facebook"><button><img src="icons/github.svg"></img></button></a>
+            <a href="" alt="facebook"><button><img src="/images/facebook.svg"></img></button></a>
+            <a href="" alt="facebook"><button><img src="/images/twitter.svg"></img></button></a>
+            <a href="" alt="facebook"><button><img src="/images/github.svg"></img></button></a>
           </div>
           <div className="Username">/rafalm99</div>
           <Translate component="div" className="FooterCopyright" content="footer.copyright"/>
