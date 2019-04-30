@@ -7,7 +7,8 @@
         "links": [
           ["portfolio.github","https://github.com/rafalm99/portfolio"]
         ],
-        "screenshots": ["portfolio-cover.png"]
+        "screenshots": ["portfolio-cover.png"],
+        "date":"04.2019"
     },
     { 
         "title":"Page-Notifications Website",
@@ -18,7 +19,8 @@
           ["pn-website.github","https://github.com/rafalm99/page-notifications-website"],
           ["pn-website.website","https://page-notifications.rafalm.com/"]
         ],
-        "screenshots": ["page-notifications-website-cover.png"]
+        "screenshots": ["page-notifications-website-cover.png"],
+        "date":"03.2019"
     },
     { 
         "title":"Page-NotificationsJS", 
@@ -29,7 +31,8 @@
             ["pn.github","https://github.com/rafalm99/page-notifications"],
             ["pn-website.website","https://page-notifications.rafalm.com/"]
         ],
-        "screenshots": ["page-notifications-cover.png"]
+        "screenshots": ["page-notifications-cover.png"],
+        "date":"03.2019"
     },
     { 
         "title":"BasLinkr Mobile",
@@ -37,7 +40,8 @@
         "description": "descriptions.baslinkr",
         "coverImage":"baslinkr-cover.png",
         "links": [],
-        "screenshots": ["baslinkr-cover.png"]
+        "screenshots": ["baslinkr-cover.png"],
+        "date":"07.2017 - 12.2017"
     },
     { 
         "title":"Nul: Solve the puzzles",
@@ -47,16 +51,18 @@
         "links": [
             ["nul.gplay","https://play.google.com/store/apps/details?id=com.bycode.nulgame"]
         ],
-        "screenshots": ["nul-cover.png"]
+        "screenshots": ["nul-cover.png"],
+        "date":"2017"
     },
     { 
         "title":"Stellar Dust", 
         "technologies":["Godot","Gimp","Inkscape"], 
-        "description": "descriptions.stellar-dust",
+        "description": "descriptions.stellar",
         "coverImage":"stellar-cover.png",
         "links": [
             ["stellar.gplay","https://play.google.com/store/apps/details?id=pl.cyfrogen.stellardust"]
         ],
-        "screenshots": ["stellar-cover.png"]
+        "screenshots": ["stellar-cover.png"],
+        "date":"2016"
     }
 ]

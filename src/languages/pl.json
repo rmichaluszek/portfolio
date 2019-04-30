@@ -10,7 +10,10 @@
     },
     "mywork": {
         "header":"Moje projekty",
-        "githubText":"Niektóre z powyższych, oraz inne mniejsze projekty można znależć na moim <a href='https://github.com/rafalm99'>GitHubie</a>."
+        "githubText":"Niektóre z powyższych, oraz inne mniejsze projekty można znależć na moim <a href='https://github.com/rafalm99'>GitHubie</a>.",
+        "links":"Odnośniki",
+        "description":"Opis",
+        "technologies":"Wykorzystane technologie"
     },
     "contact": {
         "header":"Kontakt",
@@ -26,5 +29,31 @@
     },
     "footer": {
         "copyright":"© Rafał Michałuszek 2019. Wszystkie prawa zastrzeżone."
+    },
+    "descriptions": {
+        "portfolio": "Prosta strona pokazująca czym się zajmuję, a także zawierająca kilka informacji o mnie. Projekt został zbudowany na React'cie, co pozwala na prostą obsługę języków na stronie, a także pozwalająca na wyświetlenie dokładniejszych informacji o projektach w prosty sposób.",
+        "pn-website": "Strona zbudowana za pomocą <b>CSS</b> oraz <b>HTML</b>, aby przedstawić jak działa biblioteka <b>Page-NotificationsJS</b>. Strona zawiera także dokumentację do używania biblioteki.",
+        "pn": "Prosta biblioteka umożliwiająca wyświetlanie ładnych powiadomień na każdej stronie, wykorzystująca jedynie <b>VanillaJS</b> i <b>CSS</b>. Libka wspiera 4 rodzaje powiadomień, które mogą także być czasowe i zniknąć po podanym czasie.",
+        "baslinkr": "Mobilna aplikacja stworzona dla klienta, wykorzystująca <b>AndroidStudio</b> wraz z <b>Javą</b>. Wszystko opiera się na API które <b>BaseLinker</b> udostępnia, dzięki czemu mobilna wersja może tyle samo co desktopowa.",
+        "nul": "Androidowa gierka zbudowana w <b>Godot'cie</b>, oraz przy pomocy graficznych edytorów 2D. Wypełnia ją 60 cięzkich zagadek, a wszsytko to jest otoczone minimalistyczną oprawą graficzną i dzwiękami. Dużo opinii znajduje się na <b>Google Play'u</b>.",
+        "stellar": "Androidowa gierka zbudowana w <b>Godot'cie</b>, oraz przy pomocy graficznych edytorów 2D. Głównym celem jest wystrzelenie meteoru prosto do czarnej dziury, co często wymaga użycia mocy grawitacji oraz odbić od różnych obiektów."
+    },
+    "links": {
+        "portfolio": {
+            "github":"Kod żródłowy strony"
+        },
+        "pn-website": {
+            "github": "Kod żródłowy strony",
+            "website": "Strona"
+        },
+        "pn": {
+            "github": "Kod żródłowy biblioteki"
+        },
+        "nul": {
+            "gplay": "Znajdź gierkę na Google Play"
+        },
+        "stellar": {
+            "gplay": "Znajdź gierkę na Google Play"
+        }
     }
 }

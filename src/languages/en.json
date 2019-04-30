@@ -10,7 +10,10 @@
     },
     "mywork": {
         "header":"My Work",
-        "githubText":"Some of these and other smaller projects you can find at my <a href='https://github.com/rafalm99'>GitHub</a>."
+        "githubText":"Some of these and other smaller projects you can find at my <a href='https://github.com/rafalm99'>GitHub</a>.",
+        "links":"Links",
+        "description":"Description",
+        "technologies":"Technologies used"
     },
     "contact": {
         "header":"Contact",
@@ -28,7 +31,12 @@
         "copyright":"© Rafał Michałuszek 2019. All rights reserved."
     },
     "descriptions": {
-        "portfolio": "Simple one-page site to show what am I doing, also to leave some information about me in the internet. Project was build on React, to let the website have easy translations in polish/english language, also to make single project preview easier on it."
+        "portfolio": "Simple one-page site to show what am I doing, also to leave some information about me in the internet. Project was build on React, to let the website have easy translations in polish/english language, also to make single project preview easier on it.",
+        "pn-website": "Website built using pure <b>CSS</b> and <b>HTML</b> to display how the library <b>Page-NotificationsJS</b> works, and also to place there the documentation.",
+        "pn": "Simple library for easy animated notifications on every website, using only <b>VanillaJS</b> and <b>CSS</b>. It supports 4 types of notifications, and they also can be turned into time-based and will dissapear after a given time.",
+        "baslinkr": "Mobile application build for the customer, using <b>AndroidStudio</b> with <b>Java</b>. It's all based on the API that <b>BaseLinker</b> provides, and can do all the work that the desktop version does.",
+        "nul": "Android puzzle game made with <b>Godot</b> and 2D graphic editors. It's filled with 60 hard levels, all wrapped in minimalistic graphics and sound effects. A lot of great feedback is left on the <b>Google Play</b>.",
+        "stellar": "Android puzzle game made with <b>Godot</b> and 2D graphic editors. The main purpose is to shoot the meteor right into the black hole, often using gravity tricks and colliding with several objects."
     },
     "links": {
         "portfolio": {

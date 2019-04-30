@@ -37,17 +37,17 @@ class ProjectFullScreen extends Component {
                     {this.props.project.title}
                 </div>
                 <div className="ProjectFullScreenDate">
-                    03.2018 - 06.2019
+                    {this.props.project.date}
                 </div>
               </div>
               <div className="ProjectFullScreenSection">
-                <h2>Description</h2>
-                <Translate content={this.props.project.description} component="div"/>
+                <Translate component="h2" content="mywork.description"/>
+                <Translate unsafe={true} content={this.props.project.description} component="div"/>
               </div>
 
               {this.props.project.links && this.props.project.links.length > 0 ? (
                 <div className="ProjectFullScreenSection">
-                  <h2>Links</h2>
+                  <Translate component="h2" content="mywork.links"/>
                   {
                     this.props.project.links.map((link,index) => (
                       <div className="ProjectFullScreenLink">
@@ -59,7 +59,7 @@ class ProjectFullScreen extends Component {
               ): (false)}
 
               <div className="ProjectFullScreenSection">
-                <h2>Technologies used</h2>
+                <Translate component="h2" content="mywork.technologies"/>
                 {
                   this.props.project.technologies.map((technology,index) => (
                     <div className="ProjectFullScreenTechnology">
