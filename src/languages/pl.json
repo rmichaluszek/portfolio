@@ -22,6 +22,8 @@
         "namePlaceholder":"Zostaw tu swoje imię",
         "email":"Email:",
         "emailPlaceholder":"Email, na który mogę odpowiedzieć",
+        "title":"Temat:",
+        "titlePlaceholder":"O czym chcesz napisać?",
         "content":"Wiadomość:",
         "contentPlaceholder":"Co mogę dla Ciebie zrobić?",
         "submit":"Wyślij!",

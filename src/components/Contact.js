@@ -5,6 +5,10 @@ import '../css/Contact.css';
 import Translate from 'react-translate-component';
 
 class Contact extends Component {
+
+  sendMail = () => {
+
+  }
   render() {
     return (
       <div className="Contact">
@@ -27,10 +31,14 @@ class Contact extends Component {
                   <Translate name="email" component="input" attributes={{placeholder: 'contact.emailPlaceholder' }}/>
                 </label>
                 <label>
+                  <Translate content="contact.title" component="div"/>
+                  <Translate name="title" component="input" attributes={{placeholder: 'contact.titlePlaceholder' }}/>
+                </label>
+                <label>
                   <Translate content="contact.content" component="div"/>
                   <Translate name="content" rows="6" component="textarea" attributes={{placeholder: 'contact.contentPlaceholder' }}/>
                 </label>
-                <Translate name="content" type="submit" component="input" attributes={{ value:'contact.submit'}}/>
+                <Translate onClick={this.sendMail} name="content" type="submit" component="input" attributes={{ value:'contact.submit'}}/>
               </form>
               </div>
 

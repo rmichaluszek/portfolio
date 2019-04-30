@@ -6,6 +6,7 @@ import Translate from 'react-translate-component';
 
 import ProjectDisplay from './ProjectDisplay';
 
+
 class MyWork extends Component {
   state = {
     projects: require('../projects/projects.json')

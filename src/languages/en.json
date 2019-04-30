@@ -22,6 +22,8 @@
         "namePlaceholder":"Land here Your name",
         "email":"Email:",
         "emailPlaceholder":"Email, where i can response",
+        "title":"Subject:",
+        "titlePlaceholder":"Subject of your message",
         "content":"Content:",
         "contentPlaceholder":"What can I do for You?",
         "submit":"Send!",
