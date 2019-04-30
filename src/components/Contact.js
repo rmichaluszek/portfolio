@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import '../css/Contact.css';
 
 import Translate from 'react-translate-component';
+import counterpart from 'counterpart';
 
 import axios from 'axios'; // to send the mail and receive status
 
@@ -28,9 +29,17 @@ class Contact extends Component {
     this.setState({content:e.target.value});
   }
 
-  sendMail = () => {
+  sendMail = (e) => {
     axios.get('https://rafalm.com/mail/sendMail.php?email='+this.state.email+"&name="+this.state.name+"&title="+this.state.title+"&content="+this.state.content)
-    .then(response => console.log(response));
+    .then(response => {
+      if(response.data.success) {
+        e.target.disabled = true;
+        e.target.innerHTML = counterpart.translate('contact.messageSent');
+        return;
+      }
+    });
+    e.target.disabled = true;
+    e.target.innerHTML = counterpart.translate('contact.messageError');
   }
   render() {
     return (

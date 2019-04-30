@@ -27,7 +27,9 @@
         "content":"Wiadomość:",
         "contentPlaceholder":"Co mogę dla Ciebie zrobić?",
         "submit":"Wyślij!",
-        "referenceLink":"Zobacz <a href='/documents/reference-zoologic.jpg'>pełną opinię</a>"
+        "referenceLink":"Zobacz <a href='/documents/reference-zoologic.jpg'>pełną opinię</a>",
+        "messageSent":"Email został wysłany!",
+        "messageError":"Wystąpił błąd w przesyłaniu wiadomości."
     },
     "footer": {
         "copyright":"© Rafał Michałuszek 2019. Wszystkie prawa zastrzeżone."

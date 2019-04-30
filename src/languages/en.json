@@ -27,7 +27,9 @@
         "content":"Content:",
         "contentPlaceholder":"What can I do for You?",
         "submit":"Send!",
-        "referenceLink":"See <a href='/documents/reference-zoologic.jpg'>full reference</a>"
+        "referenceLink":"See <a href='/documents/reference-zoologic.jpg'>full reference</a>",
+        "messageSent":"Email has been sent!",
+        "messageError":"Sending an email failed."
     },
     "footer": {
         "copyright":"© Rafał Michałuszek 2019. All rights reserved."

@@ -61,9 +61,20 @@
     font-weight: bold;
     color: #222222;
 }
+
 .Form button:hover {
     background: #bcbcbc;
     cursor: pointer;
+}
+.Form button:disabled {
+    width: 100%;
+    background: #ababcc !important;
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    color: #222222;
+    cursor: initial;
 }
 
 .References {
