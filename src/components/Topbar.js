@@ -25,7 +25,7 @@ class Topbar extends Component {
       <div className="Topbar">
         <div className="Container">
           <Logo/>
-          <div onClick={this.toggleMobileMenu} className={this.state.mobileMenuToggled ? 'MenuButton MenuButtonActive': 'MenuButton'}>&#9776;</div>
+          <div onClick={this.toggleMobileMenu} className={this.state.mobileMenuToggled ? 'MenuButton MenuButtonActive': 'MenuButton'}><img src="/images/menu.png"></img></div>
           <div className={this.state.mobileMenuToggled ? 'Links MenuShown': 'Links'}>
             <Translate content="topbar.title" component="a" href="#"/>
             <Translate content="topbar.mywork" component="a" href="#mywork"/>

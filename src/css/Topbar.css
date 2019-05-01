@@ -63,6 +63,11 @@ select:hover {
         text-align: center;
         font-size: 28px;
     }
+    .MenuButton img{
+        padding-top: 13px;
+        height: 35px;
+        box-sizing: border-box;
+    }
     .MenuButtonActive {
         background: rgba(255,255,255,0.05) !important;
     }
